@@ -15,3 +15,13 @@ while n < 5:
 # continuarà hasta que el usuario ingrese un 
 # número negativo, momento en el que el programa 
 # mostrarà la suma total.
+
+number = 0
+acum = 0
+
+while number >= 0:
+    number = int(input("Ingrese un número entero positivo (o un número negativo para terminar): "))
+    if number >= 0:
+        acum += number
+
+print(f"La suma total es: {acum}")
