@@ -21,6 +21,15 @@ while True:
     nombres.append(nombre)
     
 print(f"{nombres}" )
+print("")
+
+i = 0
+while i < len(nombres) - 1:
+    if nombres[i] > nombres[i + 1]:
+        nombres[i], nombres[i + 1] = nombres[i + 1], nombres[i]
+        i = 0
+    else:
+        i += 1
 
 print(f"Los nombres en orden alfabético son: {nombres}")
 

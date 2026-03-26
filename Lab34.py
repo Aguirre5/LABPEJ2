@@ -24,9 +24,14 @@ print("Lista del super-man asdjkjdasasdjjkda: ")
 for fruta in listadelsuper:
     print(fruta)
 
+print("")
+
+
+
+
 print("") # Buscar una fruta mediante otro inpur...
-fruta_buscada = input("Ingrese el nombre de la fruta que desea buscar: ")
-if fruta_buscada in listadelsuper:
-    print(f"La fruta {fruta_buscada} está en la lista.")
+frutan = input("Ingrese el nombre de la fruta que desea buscar: ")
+if frutan in listadelsuper:
+    print(f"La fruta {frutan} está en la lista.")
 else:
-    print(f"La fruta {fruta_buscada} no está en la lista.")
+    print(f"La fruta {frutan} no está en la lista.")
